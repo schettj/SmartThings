@@ -1,0 +1,73 @@
+SetModeIntent	mode to {Home|Mode}
+SetModeIntent	Im {Away|Mode}
+SetModeIntent	its {Night|Mode}
+SetModeIntent	to {Panic|Mode}
+AllDone	goodbye
+AllDone	I'm done
+AllDone	cancel
+GetLightNames	get the light names
+GetLightNames	get the names of the lights
+GetLightNames	tell me the light names
+GetLightNames	give me the light names
+GetLightNames	list the lights
+GetLightNames	help with light names
+ControlLight	turn {kitchen|LightName}  {off|LightOn}
+ControlLight	turn {dining room|LightName} light {on|LightOn}
+ControlLight	switch {foyer|LightName}  {off|LightOn}
+ControlLight	switch {rec room overheads|LightName} light {off|LightOn}
+ControlLight	flip {downstairs hall spotlight|LightName} 
+ControlLight	dim {foyer|LightName} {lower|Dimmer} brightness
+ControlLight	dim {dining room|LightName} {raise|Dimmer} brightness
+ControlLight	dim {front door|LightName} {increase|Dimmer} brightness
+ControlLight	dim {living room exterior|LightName} {decrease|Dimmer} brightness
+ControlLight	set {kitchen island|LightName} brightness to {low|Dimmer}
+ControlLight	set {foyer|LightName} brightness to {medium|Dimmer}
+ControlLight	set {kitchen|LightName} brightness to {half|Dimmer}
+ControlLight	set {kitchen island|LightName} brightness to {three quarters|Dimmer}
+ControlLight	set {rec room overheads|LightName} brightness to {full|Dimmer}
+ControlLight	set {dining room exterior|LightName} brightness {ten|Dimmer}
+ControlLight	set {exterior|LightName} brightness {twenty|Dimmer}
+ControlLight	set {all|LightName} brightness {twentythree|Dimmer}
+ControlLight	set {outside|LightName} brightness {fifty|Dimmer}
+ControlLight	set {kitchen|LightName} brightness {medium|Dimmer}
+ControlLight	set {kitchen|LightName} brightness {low|Dimmer}
+ControlLight	set {dining room|LightName} brightness {bright|Dimmer}
+ControlLight	dim {rec room spots by fireplace|LightName} light {thirty|Dimmer} percent
+ControlLight	dim {rec room spots by fireplace|LightName} light {thirtythree|Dimmer} percent
+ControlLight	dim {rec room spots by fireplace|LightName} light {sixtysix|Dimmer} percent
+ControlLight	dim {rec room spots by fireplace|LightName} light {one hundred|Dimmer} percent
+ControlLight	dim {rec room spots by fireplace|LightName} light {twenty|Dimmer} percent
+ControlLight	dim {rec room spots by fireplace|LightName} light {fourty|Dimmer} percent
+ControlLight	dim {rec room spots by fireplace|LightName} light {sixty|Dimmer} percent
+ControlLight	dim {rec room spots by fireplace|LightName} light {eighty|Dimmer} percent
+WhatsMyModeIntent	its mode
+WhatsMyModeIntent	what mode its in
+WhatsMyModeIntent	about its mode
+WhatsMyModeIntent	say the current mode
+GetHelp	help
+GetHelp	what can I say
+GetHelp	help me
+GetHelp	help with {lights|MoreHelp}
+GetHelp	help with {doors|MoreHelp}
+GetHelp	help with {status|MoreHelp}
+GetHelp	help with {phrases|MoreHelp}
+GetHelp how do I control {lights|MoreHelp}
+GetHelp how do I control {locks|MoreHelp}
+GetHelp how do I lock {doors|MoreHelp}
+GetHelp how do I unlock {doors|MoreHelp}
+ListPhrasesAndModes	what phrases can I say
+ListPhrasesAndModes	what modes can I say
+DoPhraseIntent	execute {Good Morning|Phrase}
+DoPhraseIntent	that {I'm Back|Phrase}
+DoPhraseIntent	I said {Good Night|Phrase}
+DoPhraseIntent	I said {Good Morning|Phrase}
+StatusIntent	how the house is doing
+StatusIntent	whats going on
+StatusIntent	about the house
+StatusIntent	how you're doing
+StatusIntent	get the current status
+StatusIntent	give me the status
+StatusIntent	get a status update
+StatusIntent	get an update
+StatusIntent	give me a sitrep
+

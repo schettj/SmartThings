@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "intent": "SetModeIntent",
+      "slots": [
+        {
+          "name": "Mode",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "GetHelp",
+      "slots": [
+        {
+          "name": "MoreHelp",
+          "type": "LITERAL"
+        }
+      ]
+    },
+   {
+      "intent": "AllDone",
+      "slots": []
+    },
+   {
+      "intent": "GetLightNames",
+      "slots": []
+    },
+   {
+      "intent": "ControlLight",
+      "slots": [        
+       {
+          "name": "LightName",
+          "type": "LITERAL"
+        },
+       {
+          "name": "LightOn",
+          "type": "LITERAL"
+        },
+       {
+          "name": "Dimmer",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "WhatsMyModeIntent",
+      "slots": []
+    },
+    {
+      "intent": "DoPhraseIntent",
+      "slots": [
+        {
+          "name": "Phrase",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "ListPhrasesAndModes",
+      "slots": []
+    },
+    {
+      "intent": "StatusIntent",
+      "slots": []
+    }
+  ]
+}
