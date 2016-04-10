@@ -1,0 +1,6 @@
+# NPM Dependency directory
+node_modules
+
+# Developement related files
+.DS_Store
+.idea/

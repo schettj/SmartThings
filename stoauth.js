@@ -5,6 +5,7 @@
  npm install express
  npm install request
  npm install JSON
+ npm install simple-oauth2
 */
 
 
